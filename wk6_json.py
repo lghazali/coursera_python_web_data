@@ -69,4 +69,4 @@ while True:
     c_sum = 0
     for comment in json_data['comments']:
         c_sum += int(comment['count'])
-    print('Sum:',c_sum)
+    print('Sum:', c_sum)
